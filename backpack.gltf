@@ -1,0 +1,422 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v3.3.27",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_materials_specular",
+    "KHR_materials_ior"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Back_pack_001",
+      "scale": [
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.0010000000474974513
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            2.371357614441398,
+            2.371357614441398,
+            2.371357614441398
+          ]
+        },
+        "KHR_materials_ior": {
+          "ior": 1.4500000476837158
+        }
+      },
+      "name": "body",
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            2.371357614441398,
+            2.371357614441398,
+            2.371357614441398
+          ]
+        },
+        "KHR_materials_ior": {
+          "ior": 1.4500000476837158
+        }
+      },
+      "name": "metall",
+      "normalTexture": {
+        "index": 3
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 5
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            2.371357614441398,
+            2.371357614441398,
+            2.371357614441398
+          ]
+        },
+        "KHR_materials_ior": {
+          "ior": 1.4500000476837158
+        }
+      },
+      "name": "strap",
+      "normalTexture": {
+        "index": 6
+      },
+      "occlusionTexture": {
+        "index": 7
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 8
+        },
+        "metallicRoughnessTexture": {
+          "index": 7
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    },
+    {
+      "sampler": 0,
+      "source": 8
+    }
+  ],
+  "images": [
+    {
+      "name": "leather_normal",
+      "uri": "backpack_img0.jpg"
+    },
+    {
+      "name": "leather_occlusionRoughnessMetallic",
+      "uri": "backpack_img1.jpg"
+    },
+    {
+      "name": "leather_baseColor",
+      "uri": "backpack_img2.jpg"
+    },
+    {
+      "name": "metall_normal",
+      "uri": "backpack_img3.jpg"
+    },
+    {
+      "name": "metall_occlusionRoughnessMetallic",
+      "uri": "backpack_img4.jpg"
+    },
+    {
+      "name": "metall_baseColor",
+      "uri": "backpack_img5.jpg"
+    },
+    {
+      "name": "strap_normal",
+      "uri": "backpack_img6.jpg"
+    },
+    {
+      "name": "strap_occlusionRoughnessMetallic",
+      "uri": "backpack_img7.jpg"
+    },
+    {
+      "name": "strap_baseColor",
+      "uri": "backpack_img8.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 36325,
+      "max": [
+        194.5003662109375,
+        476.3934326171875,
+        207.71348571777344
+      ],
+      "min": [
+        -190.9010009765625,
+        0.2413330078125,
+        -106.43540954589844
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 36325,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 36325,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 198618,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 5561,
+      "max": [
+        182.80905151367188,
+        379.42315673828125,
+        186.11766052246094
+      ],
+      "min": [
+        -185.35064697265625,
+        26.666099548339844,
+        -103.87211608886719
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 5561,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 5561,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 27030,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 5836,
+      "max": [
+        187.5567626953125,
+        470.6790771484375,
+        126.11418914794922
+      ],
+      "min": [
+        -194.5003662109375,
+        0.18514490127563477,
+        -207.71348571777344
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 5836,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 5836,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 31872,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 435900,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 435900,
+      "byteOffset": 435900,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 290600,
+      "byteOffset": 871800,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 397236,
+      "byteOffset": 1162400,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 66732,
+      "byteOffset": 1559636,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 66732,
+      "byteOffset": 1626368,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 44488,
+      "byteOffset": 1693100,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 54060,
+      "byteOffset": 1737588,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 70032,
+      "byteOffset": 1791648,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 70032,
+      "byteOffset": 1861680,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 46688,
+      "byteOffset": 1931712,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 63744,
+      "byteOffset": 1978400,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "backpack_data.bin",
+      "byteLength": 2042144
+    }
+  ]
+}
